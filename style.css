@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.785);
+}
+
+.entete{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.tete{
+    text-align: center;
+    padding: 5px;
+    margin: 50px;
+}
+
+span{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+}
+.tete a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 70px;
+    font-family: Arial;
+    color: white;
+}
+.tete a:hover{
+    color: aquamarine;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 20.5px;
+}
+
+.bloc1{
+    margin-top: 50px;
+    margin-bottom:650px ;
+}
+
+.imge{
+    float: left;
+}
+.imge img{
+    padding-left: 150px;
+    height: 550px;
+    width: 450px;
+}
+
+.texte{
+    float: right;
+    padding-top: 60px;
+    margin-left: 70px;
+}
+
+.texte h2{
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+    padding-right: 60%;
+    line-height: 50px;
+}
+
+.texte p{
+    color: rgb(207, 206, 206);
+    margin-top: 30px;
+    padding-right: 48%;
+    font-family: Arial;
+    line-height: 30px;
+}
+
+.texte button{
+    margin-top: 30px;
+    border: 20px solid transparent;
+    background-color: rgba(16, 15, 16, 0);
+    color: white;
+    padding: 10px 20px;
+}
+
+.texte button:hover{
+    background-color: rgb(101, 247, 198);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bloc2{
+    background-color: #fff;
+    padding-top: 90px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.droite{
+    float: left;
+}
+
+.droite h3{
+    font-size: 30px;
+    padding-right: 55%;
+    font-family: arial;
+    margin-bottom: 35px;
+}
+
+.droite p{
+    padding-right: 50%;
+    color: rgba(62, 60, 60, 0.688);;
+}
+
+.caser{
+    margin-top: 65px;
+    border: 1px solid transparent;
+    padding: 40px;
+    width: 220px;
+    height: 150px;
+    background-color: rgb(236, 237, 237);
+    color: rgba(26, 222, 101, 0.89);
+}
+
+.caser h4{
+    font-size: 25px;
+}
+
+.caser p{
+    color: black;
+    padding-right:10% ;
+    margin-bottom: 20px;
+}
+
+.centre{
+    float: center;
+    padding-top: 150px;
+}
+
+.centre h4{
+    font-size: 20px;
+    padding-bottom: 95px;
+    font-family: arial;
+}
+
+.gauche{
+    float: right;
+    padding-top: 150px;
+}
+
+.gauche1{
+    padding-bottom: 50px;
+}
+
+.gauche1 h4{
+    font-size: 20px;
+    font-family: arial;
+
+}
+
+.gauche1 p{
+    margin-top: 15px;
+    color: rgba(62, 60, 60, 0.688);
+    padding-right: 30%;
+}
+
+.gauche2{
+    padding-bottom: 50px;
+}
+
+.gauche2 h4{
+    font-size: 20px;
+    font-family: arial;
+
+}
+
+.gauche2 p{
+    margin-top: 15px;
+    color: rgba(62, 60, 60, 0.688);
+    padding-right: 30%;
+}
+
+.gauche3{
+    padding-bottom: 50px;
+}
+
+.gauche3 h4{
+    font-size: 20px;
+    font-family: arial;
+
+}
+
+.gauche3 p{
+    margin-top: 15px;
+    color: rgba(62, 60, 60, 0.688);
+    padding-right: 30%;
+}
+
+.gauche4{
+    margin-bottom: 50px;
+}
+
+.gauche4 h4{
+    font-size: 20px;
+    font-family: arial;
+
+}
+
+.gauche4 p{
+    margin-top: 15px;
+    color: rgba(62, 60, 60, 0.688);
+    padding-right: 30%;
+}
+
+.bloc3{
+    background-color: white;
+    padding-top: 90px;
+    padding-left: 110px;
+    font-family: arial;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.droite{
+    float: left;
+    padding-left: 40px;
+    margin-bottom: 50px;
+}
+
+.droite h3{
+    font-size: 30px;
+    padding-right: 40%;
+    margin-bottom: 45px;
+}
+
+.haut1 img{
+    height: 370px;
+    width: 430px;
+}
+
+.haut1 h6{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.haut1 p{
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    color: rgb(165, 160, 160);
+}
+
+.bas1 img{
+    margin-top: 30px;
+    height: 350px;
+    width: 430px;
+}
+
+.bas1 h6{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.bas1 p{
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(165, 160, 160);
+}
+
+.gauche{
+    float: right;
+    padding-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 90px;
+}
+
+.gauche h6{
+    font-size: 15px;
+    padding-right: 45%;
+    margin-bottom: 25px;
+    color: rgb(165, 160, 160);
+}
+
+.haut2 img{
+    margin-top: 5px;
+    height: 320px;
+    width: 400px;
+}
+
+.haut2 h6{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.haut2 p{
+    font-size: 15px;
+    padding-right: 45%;
+    line-height: 25px;
+    color: rgb(165, 160, 160);
+    margin-bottom: 50px;
+}
+
+.bas2 img{
+    margin-top: 30px;
+    height: 350px;
+    width: 400px;
+}
+
+.bas2 h6{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.bas2 p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 45%;
+    color: rgb(165, 160, 160);
+}
+
+.bou{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.bou button{
+    margin-top: 30px;
+    border: 20px solid transparent;
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+}
+
+.bou button:hover{
+    background-color: rgb(101, 247, 198);
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bloc4{
+    padding-top: 30px;
+    background-color: white;
+    font-family: arial;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gauch{
+    float: left;
+    padding-top: 90px;
+    padding-left: 220px;
+}
+
+.gauch h3{
+    font-size: 30px;
+    padding-right: 40%;
+    margin-bottom: 65px;
+}
+
+.gauch h6{
+    font-size: 15px;
+    padding-right: 45%;
+    margin-bottom: 25px;
+}
+
+.gauch p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 43%;
+    color: rgb(165, 160, 160);
+    margin-bottom: 55px;
+}
+
+.droit{
+    float: right;
+    margin-top: 140px;
+    padding: 80px 90px 0px;
+    background-color: rgb(236, 237, 237);
+}
+
+.droit h6{
+    font-size: 15px;
+    padding-right: 45%;
+    margin-bottom: 25px;
+}
+
+.droit p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 25%;
+    color: rgb(165, 160, 160);
+    margin-bottom: 55px;
+}
+
+.pied{
+    padding-top: 150px;
+    background-color: white;
+    font-family: arial;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gauc{
+    margin-top: 30px;
+    float: left;
+    padding-left: 180px;
+}
+
+.gauc h3{
+    margin-bottom: 30px;
+    font-family: arial;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.gauc p{
+    padding-right: 40%;
+    font-size: 15px;
+    color:rgb(144, 148, 148);
+    margin-bottom: 30px;
+}
+
+.icone svg {
+    color: rgb(100, 227, 185);
+    display: inline-block;
+    padding-right: 0px;
+    text-align: center;
+    width: 8%;
+}
+
+.droi{
+    margin-top: 20px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding-right: 20px;
+    
+}
+
+.header h4{
+    font-size: 20px;
+    color: rgb(219, 217, 217);
+    margin-bottom: 40px;
+}
+
+.header p{
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding-left: 5px;
+}
